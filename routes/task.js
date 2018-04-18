@@ -31,6 +31,7 @@ router.put('/', function (req, res) {
         let userID = data['Den'].deviceId;
         if (userID) {
             userID = userID.substring(40);
+            console.log('повідомлення перед відправкою');
             pushSend(userID);
         }
     }, 10000);
