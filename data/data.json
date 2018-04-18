@@ -65,7 +65,7 @@
         "done": false
       },
       "_5kotqfbia": {
-        "title": "*****",
+        "title": "zxc",
         "description": "",
         "date": {
           "to": "2018-04-18T09:00:00.000Z",
@@ -92,121 +92,7 @@
         "done": false
       }
     },
-    "login": "Den"
-  },
-  "Vika": {
-    "tasks": {
-      "_j88xpdkss": {
-        "title": "Погуляти в парку",
-        "description": "Vika Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ullamcorper vehicula mauris, at tempor enim maximus interdum. Praesent at magna quis purus aliquam vulputate vitae quis orci.",
-        "date": {
-          "to": "04.1.2018",
-          "from": "04.4.2018"
-        }
-      },
-      "_jb9xpdkss": {
-        "title": "Погуляти на дворі",
-        "description": "Vika ipsum dolor sit amet, consectetur adipiscing elit. Praesent ullamcorper vehicula mauris, at tempor enim maximus interdum. Praesent at magna quis purus aliquam vulputate vitae quis orci.",
-        "date": {
-          "to": "04.5.2018",
-          "from": "04.7.2018"
-        },
-        "done": true
-      },
-      "_c0zeyau2c": {
-        "title": "Біг",
-        "description": "1Vika ipsum dolor sit amet, consectetur adipiscing elit. Praesent ullamcorper vehicula mauris, at tempor enim maximus interdum. Praesent at magna quis purus aliquam vulputate vitae quis orci.",
-        "date": {
-          "from": "04.16.2018",
-          "to": "04.18.2018"
-        }
-      }
-    },
-    "login": "Vika"
-  },
-  "dfd": {
-    "tasks": {},
-    "login": "dfd"
-  },
-  "zzzzzzzzzzzzzzzz": {
-    "tasks": {},
-    "login": "zzzzzzzzzzzzzzzz"
-  },
-  "ZZZz": {
-    "tasks": {},
-    "login": "ZZZz"
-  },
-  "ZZZ": {
-    "tasks": {},
-    "login": "ZZZ"
-  },
-  "xxxx": {
-    "tasks": {},
-    "login": "xxxx"
-  },
-  "MMM": {
-    "tasks": {},
-    "login": "MMM"
-  },
-  "JJj": {
-    "tasks": {},
-    "login": "JJj"
-  },
-  "fff": {
-    "tasks": {},
-    "login": "fff"
-  },
-  "ZXCzcx": {
-    "tasks": {},
-    "login": "ZXCzcx"
-  },
-  "VVVVsxzcx": {
-    "tasks": {},
-    "login": "VVVVsxzcx"
-  },
-  "Hjh": {
-    "tasks": {},
-    "login": "Hjh"
-  },
-  "DDSFSasdas": {
-    "tasks": {},
-    "login": "DDSFSasdas"
-  },
-  "XXzxcz": {
-    "tasks": {
-      "_c0zeyau2c": {
-        "title": "Перше завдання",
-        "description": "Опис",
-        "date": {
-          "from": "04.16.2018",
-          "to": "04.18.2018"
-        }
-      }
-    }
-  },
-  "MMppp": {
-    "tasks": {
-      "_c0zeyau2c": {
-        "title": "Перше завдання",
-        "description": "Опис",
-        "date": {
-          "from": "04.16.2018",
-          "to": "04.18.2018"
-        }
-      }
-    }
-  },
-  "zxcasdd": {
-    "tasks": {
-      "_c0zeyau2c": {
-        "title": "Перше завдання",
-        "description": "Опис",
-        "date": {
-          "from": "04.16.2018",
-          "to": "04.18.2018"
-        }
-      }
-    },
-    "login": "zxcasdd"
+    "login": "Den",
+     "registration_ids": "fUapoqS7lgE:APA91bF-K_f3MP8l6rddYM_Hb5faSLq41M4yl9u_vrVPmgeGUgMbaRzi3Wr7DSNC8QZP9ccQWxhnuWchs3cPhnJyEETfD70T2zdOO0myo1nRhplVEGHfOp7eBZR93hHd81JcJQP3jKeE"
   }
 }

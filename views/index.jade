@@ -1,9 +1,15 @@
 doctype html
 html(lang='ru')
-  head
-    meta(charset='utf-8')
-    meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
-  body
-    #container
-    script(src='/javascripts/bundle.js')
+    head
+        meta(charset='utf-8')
+        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+        link(rel='manifest', href='/manifest.json')
+    body
+        #container
+        script(src='/javascripts/jquery.js')
+        script(src='/javascripts/firebas.js')
+        script(src='/serviceworker/firebase-messaging-sw.js')
+        script(src='/javascripts/bundle.js')
+
+
 

@@ -2,13 +2,14 @@ const express = require('express');
 const fs = require('fs');
 const router = express.Router();
 const data = require('../data/data');
+const pushSend = require('../modules/sendPush');
 
 router.post('/', function (req, res) {
 
     const {type, login} = req.body;
     console.log(req.body);
     if (type === 'registration' && data[login]) {
-        res.json({"tasks": data[login], login})
+        res.json({"tasks": data[login], login});
     } else if (type === 'create') {
         data[login] = {
             tasks: {

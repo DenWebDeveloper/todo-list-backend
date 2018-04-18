@@ -10,6 +10,7 @@ const data = require('./data/data');
 const indexRouter = require('./routes/index');
 const taskRouter = require('./routes/task');
 const authRouter = require('./routes/auth');
+const notificationRouter = require('./routes/notification');
 
 const app = express();
 
@@ -25,7 +26,10 @@ app.use(express.urlencoded({extended: false}));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('*', indexRouter);
+app.use('/', indexRouter);
+app.use('/login', indexRouter);
+app.use('/task/*', indexRouter);
+app.use('/notification', notificationRouter);
 app.use('/task', taskRouter);
 app.use('/auth', authRouter);
 
