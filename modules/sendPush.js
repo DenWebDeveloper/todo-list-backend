@@ -1,6 +1,5 @@
 const request = require('request');
 
-var IdUser = 'fUapoqS7lgE:APA91bF-K_f3MP8l6rddYM_Hb5faSLq41M4yl9u_vrVPmgeGUgMbaRzi3Wr7DSNC8QZP9ccQWxhnuWchs3cPhnJyEETfD70T2zdOO0myo1nRhplVEGHfOp7eBZR93hHd81JcJQP3jKeE';
 function sendPush(idUser) {
     console.log(idUser);
     request({
