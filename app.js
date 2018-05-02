@@ -10,6 +10,7 @@ const data = require('./data/data');
 const indexRouter = require('./routes/index');
 const taskRouter = require('./routes/task');
 const authRouter = require('./routes/auth');
+const restRouter = require('./routes/rest');
 const notificationRouter = require('./routes/notification');
 
 const app = express();
@@ -32,6 +33,7 @@ app.use('/task/*', indexRouter);
 app.use('/notification', notificationRouter);
 app.use('/task', taskRouter);
 app.use('/auth', authRouter);
+app.use('/rest', restRouter);
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
